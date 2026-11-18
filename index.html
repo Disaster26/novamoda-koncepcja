@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Stylistka Poznań - Marta Rasch | Novamoda, showroom polskiej mody</title>
+<meta name="description" content="Osobista stylistka w Poznaniu: analiza kolorystyczna i sylwetki, przegląd szafy, zakupy ze stylistką, także online. Showroom polskiej mody przy ul. Kościelnej 17. Tel. 790 455 885.">
+<meta name="theme-color" content="#600064">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-760.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w, img/hero-m-1066.webp 1066w" imagesizes="100vw" media="not all and (min-width:900px) and (orientation:landscape)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-d-1600.webp" imagesrcset="img/hero-d-1024.webp 1024w, img/hero-d-1600.webp 1600w, img/hero-d-2000.webp 2000w" imagesizes="100vw" media="(min-width:900px) and (orientation:landscape)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/jost-rdzen.woff2" crossorigin>
+<style>
+@font-face{font-family:Jost;font-weight:100 900;font-display:swap;src:url(fonts/jost-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2026,U+20AC}
+@font-face{font-family:Jost;font-weight:100 900;font-display:swap;src:url(fonts/jost-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:Lora;font-weight:400 700;font-display:swap;src:url(fonts/lora-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B7,U+00BB,U+00D3,U+00D7,U+00F3,U+2013-2014,U+2018-2019,U+201C-201E,U+2022,U+2026}
+@font-face{font-family:Lora;font-weight:400 700;font-display:swap;src:url(fonts/lora-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:"Jost fb";src:local("Arial");size-adjust:96%;ascent-override:104%;descent-override:30%}
+:root{--plum:#600064;--plum2:#7a1580;--deep:#2c0431;--ink:#1a1320;--mut:#5a5361;--g:#f3f2f5;--line:#dedbe2;--hh:64px;--w:min(calc(100vw - 32px),1720px)}
+@media (min-width:900px){:root{--hh:80px;--w:min(91vw,1720px)}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:Jost,"Jost fb",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:clamp(17px,.25vw + 15.5px,20px);line-height:1.6;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;font-weight:400;line-height:1.08;letter-spacing:-.01em}
+h2{font-size:clamp(34px,3.4vw,66px)}
+h3{font-size:clamp(20px,1.3vw,25px);font-weight:500;line-height:1.25}
+p{margin:0}
+.wrap{width:var(--w);margin:0 auto}
+.skip{position:absolute;left:-999px}.skip:focus{left:16px;top:8px;z-index:99;background:#fff;padding:8px 12px}
+/* przycisk: prostokat z cienka linia jak kreska logo */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:54px;padding:0 30px;background:var(--plum);color:#fff;font:500 1.02rem/1 Jost,"Jost fb",Arial,sans-serif;letter-spacing:.02em;text-decoration:none;border:0;border-radius:0;cursor:pointer;transition:background .2s}
+.btn:hover{background:var(--plum2)}
+.btn.jasny{background:#fff;color:var(--plum)}
+.btn.jasny:hover{background:#f1e6f2}
+.btn:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+/* skrzydlo z logo: pochylona petla */
+.petla{display:inline-block;width:11px;height:20px;border:1.6px solid var(--plum);border-radius:50%;transform:rotate(-22deg);flex:none}
+
+/* NAGLOWEK */
+.top{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid #ece9ef}
+.top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--plum)}
+.logo svg{height:48px;width:49px;flex:none}
+.logo span{font-weight:300;font-size:15px;letter-spacing:.14em}
+@media (min-width:900px){.logo svg{height:62px;width:63px}.logo span{font-size:17px}}
+.menu{display:none}
+.top-tel{display:flex;align-items:center;gap:8px;text-decoration:none;font-weight:500;color:var(--plum);white-space:nowrap}
+.top-tel svg{width:22px;height:22px}
+.top-tel b{display:none;font-weight:500}
+.burger{width:46px;height:46px;display:grid;place-items:center;background:none;border:0;cursor:pointer;padding:0;color:var(--ink)}
+.burger i{display:block;width:24px;height:1.8px;background:currentColor;position:relative}
+.burger i::before,.burger i::after{content:"";position:absolute;left:0;width:24px;height:1.8px;background:currentColor;transition:transform .2s}
+.burger i::before{top:-7px}.burger i::after{top:7px}
+.top.otw .burger i{background:transparent}.top.otw .burger i::before{transform:translateY(7px) rotate(45deg)}.top.otw .burger i::after{transform:translateY(-7px) rotate(-45deg)}
+.prawa{display:flex;align-items:center;gap:6px}
+.panel{position:fixed;inset:var(--hh) 0 auto 0;background:#fff;border-bottom:1px solid var(--line);padding:8px 16px 24px;display:none;max-height:calc(100svh - var(--hh));overflow:auto}
+.top.otw .panel{display:block}
+.panel a{display:flex;align-items:center;justify-content:space-between;padding:14px 0;border-bottom:1px solid #eee9f0;font-size:20px;text-decoration:none}
+.panel a.sklep{color:var(--plum);font-weight:500}
+.panel a.btn{margin-top:20px;width:100%;justify-content:center;padding:0 24px;border:0;font-size:18px;color:#fff}
+@media (min-width:1100px){
+ .menu{display:flex;gap:clamp(18px,1.8vw,38px);align-items:center}
+ .menu a{text-decoration:none;font-size:17px;padding:6px 0;border-bottom:1.5px solid transparent}
+ .menu a:hover{border-color:var(--plum)}
+ .menu a.sklep{color:var(--plum);font-weight:500}
+ .burger,.panel{display:none!important}
+ .top-tel b{display:inline}
+}
+
+/* HERO */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;flex-direction:column;justify-content:flex-end;color:#fff;background:var(--deep);overflow:hidden}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%}
+.hero picture img{object-fit:cover;object-position:50% 18%}
+@media (min-width:900px) and (orientation:landscape){.hero picture{left:-14%;width:114%}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(44,4,49,0) 30%,rgba(44,4,49,.55) 55%,rgba(44,4,49,.92) 82%)}
+.hero-in{position:relative;z-index:2;padding:28px 0 32px}
+.hero h1{font-size:clamp(33px,min(9.6vw,5.4svh),46px);font-weight:400;max-width:15ch}
+.hero .lead{margin-top:14px;font-size:clamp(16px,min(4.3vw,2.4svh),19px);line-height:1.5;color:rgba(255,255,255,.92);max-width:36em}
+.hero .btn{margin-top:24px}
+@media (min-width:900px) and (orientation:landscape){
+ .hero{justify-content:center;align-items:flex-end}
+ .hero picture img{object-position:50% 32%}
+ .hero::after{background:linear-gradient(270deg,rgba(44,4,49,.9) 0%,rgba(44,4,49,.78) 24%,rgba(44,4,49,.3) 40%,rgba(44,4,49,0) 52%)}
+ .hero>.wrap{width:100%}
+ .hero-in{width:min(30vw,660px);margin-right:4.5vw;padding:48px 0}
+ .hero h1{font-size:clamp(40px,3.3vw,72px);max-width:none}
+ .hero .lead{font-size:clamp(17px,1.15vw,22px);margin-top:20px}
+ .hero .btn{margin-top:32px}
+}
+
+/* SEKCJE */
+section{padding:clamp(64px,7vw,130px) 0;overflow:clip}
+.szary{background:var(--g)}
+.wst{font-size:clamp(17px,1.1vw,21px);color:var(--mut);max-width:44em;margin-top:18px}
+
+/* POZNAJ MNIE */
+.omnie{display:grid;gap:44px;align-items:center}
+.portret{position:relative;max-width:520px;margin:0 auto 0 8px;width:calc(100% - 40px)}
+.portret img{position:relative;z-index:1;width:100%;aspect-ratio:570/855;object-fit:cover}
+.skrz{position:absolute;border:1.6px solid var(--plum);border-radius:50%;pointer-events:none}
+.portret .s1{width:62%;height:56%;right:-15%;top:-6%;transform:rotate(24deg)}
+.portret .s2{width:52%;height:34%;right:-12%;top:38%;transform:rotate(-28deg);z-index:2}
+.omnie-t p+p{margin-top:16px}
+.omnie-t h2{margin-bottom:24px}
+.znani{margin-top:28px;padding-top:22px;border-top:1px solid var(--line);color:var(--mut);font-size:.95em}
+.znani b{color:var(--ink);font-weight:500}
+@media (min-width:900px){.omnie{grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(60px,7vw,150px)}.portret{margin:0 auto}}
+
+/* CENNIK */
+.cennik{display:grid;gap:40px;margin-top:44px}
+.uslugi{list-style:none;margin:0;padding:0;border-top:1px solid #d3cfd8}
+.uslugi li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 20px;padding:20px 0;border-bottom:1px solid #d3cfd8}
+.uslugi h3{grid-column:1}
+.uslugi .cena{grid-column:2;grid-row:1/3;align-self:center;font-size:clamp(24px,1.8vw,34px);color:var(--plum);font-weight:500;white-space:nowrap}
+.uslugi .opis{grid-column:1;color:var(--mut);font-size:.92em}
+.cennik figure{margin:0;position:relative}
+.cennik figure img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.start{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 40px;margin-top:44px;padding:clamp(24px,2.6vw,44px) clamp(20px,3vw,52px);background:var(--plum);color:#fff}
+.start p{font-size:clamp(19px,1.4vw,26px);max-width:30em;line-height:1.35}
+@media (min-width:900px){.uslugi li{padding:30px 0}.cennik{grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(48px,5vw,110px);align-items:start}.cennik figure img{aspect-ratio:4/5}}
+
+/* KONSULTACJA */
+.kons{display:grid;gap:56px;margin-top:44px}
+.droga{list-style:none;margin:0;padding:0;position:relative}
+.droga::before{content:"";position:absolute;left:5px;top:12px;bottom:12px;width:1.6px;background:var(--plum);opacity:.35}
+.droga li{position:relative;padding:0 0 26px 40px}
+.droga li:last-child{padding-bottom:0}
+.droga .petla{position:absolute;left:0;top:4px;background:#fff}
+.droga b{font-weight:500}
+.dostaje h3{margin-bottom:18px}
+.lista{list-style:none;margin:0;padding:0}
+.lista li{display:flex;gap:16px;align-items:flex-start;padding:10px 0;border-bottom:1px solid #ece9ef}
+.lista .petla{margin-top:4px;width:9px;height:16px}
+.online{margin-top:26px;color:var(--mut)}
+@media (min-width:900px){.kons{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(56px,6vw,140px)}}
+
+/* SHOWROOM - mocna sekcja */
+.showroom{background:var(--deep);color:#fff;position:relative}
+.showroom .motyl-tlo{display:none;position:absolute;right:4%;top:48px;width:min(380px,46vw);height:auto;aspect-ratio:100/104;opacity:.2;color:#fff;pointer-events:none}
+.showroom .wst{color:rgba(255,255,255,.82)}
+.showroom .wrap{position:relative}
+.marki{margin-top:24px;color:rgba(255,255,255,.75);font-size:.95em;max-width:60em}
+.marki b{color:#fff;font-weight:500}
+.pas-gl{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.strzalki{display:none;gap:10px}
+.strzalki button{width:52px;height:52px;border:1.5px solid currentColor;background:none;color:inherit;cursor:pointer;display:grid;place-items:center;border-radius:0}
+.strzalki button:hover{background:rgba(255,255,255,.12)}
+.strzalki svg{width:20px;height:20px}
+@media (min-width:900px){.strzalki{display:flex}.showroom .motyl-tlo{display:block}}
+.pas{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-top:36px;cursor:grab;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+.pas::-webkit-scrollbar{display:none}
+.pas.ciagnie{cursor:grabbing;scroll-snap-type:none}
+.pas.ciagnie a,.pas.ciagnie img{pointer-events:none}
+.prod{flex:0 0 calc((100% - 16px)/1.6);scroll-snap-align:start;text-decoration:none;color:#fff}
+.prod img{width:100%;aspect-ratio:3/4;object-fit:cover;background:#3a0c40}
+.prod span{display:block;margin-top:12px;font-size:.95em;line-height:1.35}
+.prod b{display:block;margin-top:4px;font-weight:500;font-size:1.05em}
+@media (min-width:600px){.prod{flex-basis:calc((100% - 32px)/3)}}
+@media (min-width:1100px){.prod{flex-basis:calc((100% - 64px)/5)}}
+@media (min-width:1700px){.prod{flex-basis:calc((100% - 80px)/6)}}
+.sklep-cta{display:flex;flex-wrap:wrap;gap:16px 32px;align-items:center;margin-top:40px}
+.sklep-cta p{color:rgba(255,255,255,.8)}
+
+/* PORTFOLIO */
+.galeria{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin-top:36px;cursor:grab;overscroll-behavior-x:contain}
+.galeria::-webkit-scrollbar{display:none}
+.galeria.ciagnie{cursor:grabbing;scroll-snap-type:none}
+.galeria.ciagnie button{pointer-events:none}
+.galeria figure{margin:0;flex:none;scroll-snap-align:start}
+.galeria button{display:block;padding:0;border:0;background:none;cursor:zoom-in}
+.galeria img{height:clamp(300px,34vw,560px);width:auto;max-width:none}
+.galeria figcaption{margin-top:10px;font-size:.9em;color:var(--mut);max-width:100%}
+.portfolio .strzalki{color:var(--plum)}
+.portfolio .strzalki button:hover{background:#f4ecf5}
+dialog.lb{border:0;padding:0;background:transparent;max-width:96vw;max-height:94vh}
+dialog.lb::backdrop{background:rgba(20,6,24,.9)}
+dialog.lb img{max-width:96vw;max-height:86vh;width:auto;height:auto}
+dialog.lb p{color:#fff;margin-top:10px;text-align:center}
+dialog.lb button{position:fixed;top:12px;right:12px;width:48px;height:48px;background:#fff;border:0;font-size:28px;line-height:1;cursor:pointer;color:var(--plum)}
+
+/* OPINIE */
+.cytaty{columns:1;column-gap:clamp(24px,3vw,56px);margin-top:44px}
+.cytaty blockquote{break-inside:avoid;margin:0 0 clamp(28px,2.6vw,44px);padding:0;font-family:Lora,Georgia,serif;font-size:clamp(18px,1.25vw,23px);line-height:1.5}
+.cytaty blockquote.dluga{font-size:clamp(16px,1vw,19px)}
+.cytaty cite{display:block;margin-top:12px;font-family:Jost,"Jost fb",sans-serif;font-style:normal;font-size:15px;color:var(--mut)}
+.cytaty cite b{color:var(--ink);font-weight:500}
+@media (min-width:700px){.cytaty{columns:2}}
+@media (min-width:1300px){.cytaty{columns:3}}
+.google{margin-top:12px}
+.google a{color:var(--plum);font-weight:500}
+
+/* KONTAKT */
+.kontakt{display:grid;gap:48px}
+.dane{margin-top:28px;display:grid;gap:22px}
+.dane div{display:grid;gap:2px}
+.dane small{color:var(--mut);font-size:15px}
+.dane a,.dane span{font-size:clamp(20px,1.5vw,28px);text-decoration:none;color:var(--plum);font-weight:500}
+.dane span{color:var(--ink);font-weight:400}
+.soc{display:flex;gap:22px;margin-top:28px;flex-wrap:wrap}
+.soc a{color:var(--plum);font-weight:500}
+form{display:grid;gap:16px;background:var(--g);padding:clamp(22px,3vw,48px)}
+form label{display:grid;gap:6px;font-size:15px;color:var(--mut)}
+form input,form select,form textarea{font:inherit;font-size:17px;color:var(--ink);padding:13px 14px;border:1px solid #cfcad5;background:#fff;border-radius:0;width:100%}
+form textarea{min-height:120px;resize:vertical}
+form input:focus,form select:focus,form textarea:focus{outline:2px solid var(--plum);outline-offset:0;border-color:var(--plum)}
+form .zgoda{display:flex;gap:10px;align-items:flex-start;font-size:14px}
+form .zgoda input{width:20px;height:20px;margin-top:2px;flex:none}
+form .btn{justify-self:start}
+.info{font-size:14px;color:var(--mut)}
+.ok{display:none;padding:14px;background:#fff;color:var(--plum)}
+@media (min-width:900px){.kontakt{grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(56px,7vw,150px)}form .podw{display:grid;grid-template-columns:1fr 1fr;gap:16px}}
+
+/* STOPKA */
+footer{background:#1d0a21;color:#cfc4d2;padding:56px 0 28px;font-size:15px}
+.st-g{display:grid;grid-template-columns:1fr 1fr;gap:32px 24px}
+.st-g .st-h{display:block;margin:0 0 12px;color:#fff;font-weight:500;font-size:16px}
+.st-g a{text-decoration:none}.st-g a:hover{color:#fff}
+.st-g ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.st-logo{grid-column:1/-1;color:#fff}
+.st-logo svg{height:76px;width:77px}
+.st-logo p{margin-top:12px;max-width:26em}
+@media (min-width:900px){.st-g{grid-template-columns:2fr 1fr 1fr 1fr}.st-logo{grid-column:auto}}
+.st-dol{display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;align-items:center;margin-top:44px;padding-top:20px;border-top:1px solid #3a2340;font-size:14px}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+
+
+/* pasek na telefonie po przewinieciu */
+.mob{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1.4fr;background:#fff;border-top:1px solid var(--line);transform:translateY(110%);transition:transform .25s}
+.mob.widac{transform:none}
+.mob a{display:flex;align-items:center;justify-content:center;min-height:56px;text-decoration:none;font-weight:500}
+.mob a:first-child{color:var(--plum)}
+.mob a:last-child{background:var(--plum);color:#fff}
+@media (min-width:900px){.mob{display:none}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#tresc">Przejdź do treści</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+ <symbol id="nm" viewBox="34 2 236 234">
+  <g fill="none" stroke="currentColor" stroke-width="2.6">
+   <ellipse cx="103" cy="50" rx="16" ry="38" transform="rotate(-14 103 50)"/>
+   <ellipse cx="129" cy="52" rx="19" ry="42" transform="rotate(28 129 52)"/>
+   <ellipse cx="90" cy="82" rx="23" ry="12" transform="rotate(18 90 82)"/>
+   <ellipse cx="105" cy="91" rx="18" ry="10" transform="rotate(-26 105 91)"/>
+  </g>
+  <g fill="none" stroke="currentColor" stroke-width="6.5" stroke-linejoin="miter" stroke-miterlimit="6">
+   <path d="M44 224V106l89 118V106"/>
+   <path d="M150 224l13-118 42 110 34-110 23 118"/>
+  </g>
+ </symbol>
+ <symbol id="motyl" viewBox="60 6 100 104">
+  <g fill="none" stroke="currentColor" stroke-width="1.2">
+   <ellipse cx="103" cy="50" rx="16" ry="38" transform="rotate(-14 103 50)"/>
+   <ellipse cx="129" cy="52" rx="19" ry="42" transform="rotate(28 129 52)"/>
+   <ellipse cx="90" cy="82" rx="23" ry="12" transform="rotate(18 90 82)"/>
+   <ellipse cx="105" cy="91" rx="18" ry="10" transform="rotate(-26 105 91)"/>
+  </g>
+ </symbol>
+</svg>
+
+<header class="top" id="top">
+ <div class="wrap">
+  <a class="logo" href="#" aria-label="NOVAMODA.PL - strona główna"><svg viewBox="0 0 236 234" aria-hidden="true"><use href="#nm"/></svg><span>NOVAMODA.PL</span></a>
+  <nav class="menu" aria-label="Menu główne">
+   <a href="#stylistka">O mnie</a>
+   <a href="#cennik">Usługi i cennik</a>
+   <a href="#konsultacja">Konsultacja</a>
+   <a href="#showroom">Showroom</a>
+   <a href="#portfolio">Portfolio</a>
+   <a href="#opinie">Opinie</a>
+   <a href="#kontakt">Kontakt</a>
+   <a class="sklep" href="https://sklep.novamoda.pl/">Sklep</a>
+  </nav>
+  <div class="prawa">
+   <a class="top-tel" href="tel:+48790455885" aria-label="790 455 885 - zadzwoń"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6.6 3.5h3l1.5 4.2-2 1.4a11 11 0 0 0 5.8 5.8l1.4-2 4.2 1.5v3a2 2 0 0 1-2.1 2A16.5 16.5 0 0 1 4.6 5.6a2 2 0 0 1 2-2.1z"/></svg><b>790 455 885</b></a>
+   <button class="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="panel"><i></i></button>
+  </div>
+ </div>
+ <div class="panel" id="panel">
+  <a href="#stylistka">O mnie</a>
+  <a href="#cennik">Usługi i cennik</a>
+  <a href="#konsultacja">Jak wygląda konsultacja</a>
+  <a href="#showroom">Showroom polskiej mody</a>
+  <a href="#portfolio">Portfolio</a>
+  <a href="#opinie">Opinie</a>
+  <a href="#kontakt">Kontakt</a>
+  <a class="sklep" href="https://sklep.novamoda.pl/">Sklep online</a>
+  <a class="btn" href="#kontakt">Umów bezpłatne 15 minut</a>
+ </div>
+</header>
+
+<main id="tresc">
+<section class="hero" style="padding:0">
+ <picture>
+  <source media="(min-width:900px) and (orientation:landscape)" srcset="img/hero-d-1024.webp 1024w, img/hero-d-1600.webp 1600w, img/hero-d-2000.webp 2000w" sizes="100vw" width="2000" height="1124">
+  <img src="img/hero-m-760.webp" srcset="img/hero-m-480.webp 480w, img/hero-m-760.webp 760w, img/hero-m-1066.webp 1066w" sizes="100vw" width="760" height="1141" alt="Marta Rasch, stylistka Novamoda, na ulicy w Poznaniu" fetchpriority="high">
+ </picture>
+ <div class="wrap" style="position:relative;z-index:2;display:flex;justify-content:flex-end">
+  <div class="hero-in">
+   <h1>Stylistka w Poznaniu. Pokaż swoje piękno</h1>
+   <p class="lead">Marta Rasch - od ponad 18 lat stylistka i showroom polskiej mody przy Kościelnej 17. Analiza kolorystyczna, przegląd szafy i zakupy ze stylistką, także online.</p>
+   <a class="btn jasny" href="#kontakt">Umów bezpłatne 15 minut</a>
+  </div>
+ </div>
+</section>
+
+<section id="stylistka">
+ <div class="wrap omnie">
+  <div class="portret">
+   <span class="skrz s1" aria-hidden="true"></span>
+   <img src="img/marta-plaszcz-570.webp" width="570" height="855" loading="lazy" alt="Marta Rasch w czarnym płaszczu">
+   <span class="skrz s2" aria-hidden="true"></span>
+  </div>
+  <div class="omnie-t">
+   <h2>Marta Rasch, osobista stylistka</h2>
+   <p>Jestem absolwentką Uniwersytetu Ekonomicznego. Korporację zamieniłam na modę i nigdy tej decyzji nie żałowałam. Od ponad 18 lat prowadzę w Poznaniu showroom z polskimi projektantami, a życie dzielę między Poznań i Londyn - widzę, jak ubierają się kobiety w różnych miejscach świata.</p>
+   <p>Prowadzę metamorfozy, analizę kolorystyczną i analizę sylwetki, przeglądy szaf i zakupy ze stylistką. Przez ponad 5 lat pisałam rubrykę „Moda” w miesięczniku „Sukces po poznańsku”, stylizowałam dziesiątki reklam telewizyjnych, sesji i filmów. Pokazuję, jak tworzyć szybkie codzienne zestawy i jak kupować mniej, a lepiej.</p>
+   <p class="znani">Współpracowałam m.in. z: <b>Karolem Okrasą i Paskalem Brodnickim</b> (kampania Lidla 2013-2015), <b>Dorotą Wellman, Borysem Szycem, Magdaleną Boczarską, Szymonem Bobrowskim, Katarzyną Bujakiewicz, Krzysztofem Ibiszem, Beatą Sadowską</b> i Darkiem Kuźniarem.</p>
+  </div>
+ </div>
+</section>
+
+<section class="szary" id="cennik">
+ <div class="wrap">
+  <h2>Usługi i cennik</h2>
+  <p class="wst">Twój wizerunek to komunikat, który wysyłasz, zanim cokolwiek powiesz. Większość spotkań odbywa się online, analizy także w butiku w Poznaniu.</p>
+  <div class="cennik">
+   <ul class="uslugi">
+    <li><h3>Analiza kolorystyczna i analiza sylwetki</h3><span class="cena">699 zł</span><span class="opis">ok. 1,5 godziny, online lub w butiku w Poznaniu</span></li>
+    <li><h3>Analiza kolorystyczna</h3><span class="cena">499 zł</span><span class="opis">ok. 1 godzina, online lub w butiku</span></li>
+    <li><h3>Przegląd Twojej szafy online</h3><span class="cena">799 zł</span><span class="opis">ok. 3 godziny, każda kolejna godzina 150 zł</span></li>
+    <li><h3>Przegląd szafy z Martą w Twoim domu</h3><span class="cena">999 zł</span><span class="opis">3-4 godziny, każda kolejna godzina 200 zł</span></li>
+    <li><h3>Zakupy ze stylistką w galerii handlowej</h3><span class="cena">999 zł</span><span class="opis">ok. 4 godziny, każda dodatkowa godzina 200 zł</span></li>
+   </ul>
+   <figure><img src="img/szafa-966.webp" srcset="img/szafa-640.webp 640w, img/szafa-966.webp 966w" sizes="(min-width:900px) 38vw, 100vw" width="966" height="726" loading="lazy" alt="Uporządkowana szafa po przeglądzie ze stylistką"></figure>
+  </div>
+  <div class="start">
+   <p>Nie wiesz, od czego zacząć? Pierwsze 15 minut rozmowy wideo jest bezpłatne i do niczego nie zobowiązuje.</p>
+   <a class="btn jasny" href="#kontakt">Umów bezpłatną konsultację</a>
+  </div>
+ </div>
+</section>
+
+<section id="konsultacja">
+ <div class="wrap">
+  <h2>Jak wygląda konsultacja</h2>
+  <div class="kons">
+   <ol class="droga">
+    <li><span class="petla"></span><b>Rozmowa.</b> Zaczynamy od Twojego stylu życia, pracy i codziennych wyzwań - po co Ci stylistka.</li>
+    <li><span class="petla"></span><b>Twoja szafa dziś.</b> Za dużo ubrań, których nie nosisz, bo nie wiesz, jak je połączyć? A może za mało?</li>
+    <li><span class="petla"></span><b>Gotowe zestawy.</b> Z tego, co już masz, układamy stroje na wybrane okazje i spisujemy, czego brakuje.</li>
+    <li><span class="petla"></span><b>Moodboard.</b> Twoja prywatna tablica inspiracji: styl dopasowany do figury, temperamentu i trybu życia.</li>
+    <li><span class="petla"></span><b>Lista i kolejny krok.</b> Dostajesz linki i inspiracje, a jeśli trzeba, umawiamy wspólne zakupy.</li>
+   </ol>
+   <div class="dostaje">
+    <h3>Co otrzymujesz po konsultacji</h3>
+    <ul class="lista">
+     <li><span class="petla"></span>ponad 80-stronicowy raport PDF o Twojej sylwetce i typie kolorystycznym</li>
+     <li><span class="petla"></span>ponad 20 indywidualnych wskazówek, co nosić, a czego unikać</li>
+     <li><span class="petla"></span>wiedzę, jakie kolory wybierać i jak je łączyć</li>
+     <li><span class="petla"></span>garderobę kapsułową w Twoich kolorach</li>
+     <li><span class="petla"></span>listę inspiracji i gotowych zestawów</li>
+     <li><span class="petla"></span>triki stylistki, dzięki którym rano ubierasz się szybko i z przyjemnością</li>
+    </ul>
+    <p class="online">Konsultacje odbywają się w większości online, więc nigdzie nie musisz się spieszyć.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="showroom" id="showroom">
+ <svg class="motyl-tlo" viewBox="0 0 100 104" aria-hidden="true"><use href="#motyl"/></svg>
+ <div class="wrap">
+  <h2>Showroom polskiej mody przy Kościelnej 17</h2>
+  <p class="wst">Novamoda łączy kobiety, które szukają stylu, z małymi markami szytymi w Polsce. Jest też marka własna Novamoda: przemyślane modele z dobrych materiałów, a na życzenie ubrania szyte na miarę.</p>
+  <p class="marki">W showroomie i sklepie: <b>Maio Poland, Barbara Bechta, Belette, Bello Design, Missu Design, La Dame, No Sugar, Odzieżowe Pole, Tressore, Auerin Jewellery, Equipo Bags, MyBag</b> i Novamoda.</p>
+  <div class="pas-gl">
+   <span></span>
+   <div class="strzalki" data-pas="pas-sklep"><button type="button" data-k="-1" aria-label="Poprzednie"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12.5 4 6.5 10l6 6"/></svg></button><button type="button" data-k="1" aria-label="Następne"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m7.5 4 6 6-6 6"/></svg></button></div>
+  </div>
+  <div class="pas" id="pas-sklep">
+   <a class="prod" href="https://sklep.novamoda.pl/shop/kimono-swetrowe-wiazane-karmel/"><img src="img/p-s2.webp" width="600" height="800" loading="lazy" alt="Kimono swetrowe wiązane w kolorze karmelu"><span>Kimono swetrowe wiązane</span><b>499 zł</b></a>
+   <a class="prod" href="https://sklep.novamoda.pl/shop/sukienka-audrey-mini-z-dlugim-rekawem/"><img src="img/p-s3.webp" width="600" height="800" loading="lazy" alt="Czerwona sukienka Audrey mini z długim rękawem"><span>Sukienka Audrey, mini z długim rękawem</span><b>450 zł</b></a>
+   <a class="prod" href="https://sklep.novamoda.pl/shop/skorzana-marynarka-z-marszczeniem-na-plecach/"><img src="img/p-s4.webp" width="600" height="800" loading="lazy" alt="Skórzana marynarka z marszczeniem na plecach"><span>Skórzana marynarka z marszczeniem</span><b>599 zł</b></a>
+   <a class="prod" href="https://sklep.novamoda.pl/shop/kurtka-w-krate-braz/"><img src="img/p-s6.webp" width="600" height="800" loading="lazy" alt="Kurtka w brązową kratę"><span>Kurtka w kratę, brąz</span><b>599 zł</b></a>
+   <a class="prod" href="https://sklep.novamoda.pl/shop/beret-z-cekinami/"><img src="img/p-s1.webp" width="600" height="800" loading="lazy" alt="Beret z cekinami"><span>Beret z cekinami</span><b>199 zł</b></a>
+   <a class="prod" href="https://sklep.novamoda.pl/shop/koszula-oversize-safari/"><img src="img/p-s8.webp" width="600" height="800" loading="lazy" alt="Koszula oversize safari"><span>Koszula oversize safari</span><b>299 zł</b></a>
+   <a class="prod" href="https://sklep.novamoda.pl/shop/czarna-mini-sukienka-tina/"><img src="img/p-s9.webp" width="600" height="800" loading="lazy" alt="Czarna mini sukienka Tina"><span>Czarna mini sukienka Tina</span><b>399 zł</b></a>
+   <a class="prod" href="https://sklep.novamoda.pl/shop/koszula-czarna-w-blekitne-kwiaty/"><img src="img/p-s10.webp" width="600" height="800" loading="lazy" alt="Czarna koszula w błękitne kwiaty"><span>Koszula czarna w błękitne kwiaty</span><b>299 zł</b></a>
+   <a class="prod" href="https://sklep.novamoda.pl/shop/bluzka-w-ciemne-kwiaty-z-kokarda/"><img src="img/p-s11.webp" width="600" height="800" loading="lazy" alt="Bluzka w ciemne kwiaty z kokardą"><span>Bluzka w ciemne kwiaty z kokardą</span><b>350 zł</b></a>
+   <a class="prod" href="https://sklep.novamoda.pl/shop/duza-pojemna-torba-typu-shopper/"><img src="img/p-s7.webp" width="390" height="520" loading="lazy" alt="Duża pojemna torba typu shopper"><span>Duża torba typu shopper</span><b>999 zł</b></a>
+   <a class="prod" href="https://sklep.novamoda.pl/shop/granatowa-welniana-marynarka/"><img src="img/p-s12.webp" width="390" height="520" loading="lazy" alt="Granatowa wełniana marynarka"><span>Granatowa wełniana marynarka</span><b>799 zł</b></a>
+  </div>
+  <div class="sklep-cta">
+   <a class="btn jasny" href="https://sklep.novamoda.pl/">Przejdź do sklepu</a>
+   <p>Showroom: tel. <a href="tel:+48575870703">575 870 703</a>, ul. Kościelna 17, Poznań</p>
+  </div>
+ </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+ <div class="wrap">
+  <div class="pas-gl">
+   <div><h2>Portfolio</h2><p class="wst">Kostiumy do filmu, kampanie reklamowe i sesje modowe, przy których pracowałam.</p></div>
+   <div class="strzalki" data-pas="galeria"><button type="button" data-k="-1" aria-label="Poprzednie"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12.5 4 6.5 10l6 6"/></svg></button><button type="button" data-k="1" aria-label="Następne"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m7.5 4 6 6-6 6"/></svg></button></div>
+  </div>
+  <div class="galeria" id="galeria">
+   <figure><button type="button" data-duze="img/pf-na-drodze-duze.webp"><img src="img/pf-na-drodze.webp" width="454" height="640" loading="lazy" alt="Plakat filmu Na drodze"></button><figcaption>Film „Na drodze”</figcaption></figure>
+   <figure><button type="button" data-duze="img/pf-novamoda-2016-duze.webp"><img src="img/pf-novamoda-2016.webp" width="723" height="640" loading="lazy" alt="Sesja Novamoda wiosna-lato 2016 w Poznaniu"></button><figcaption>Novamoda wiosna-lato 2016</figcaption></figure>
+   <figure><button type="button" data-duze="img/pf-semilac-duze.webp"><img src="img/pf-semilac.webp" width="1140" height="640" loading="lazy" alt="Kampania Semilac wiosna 2017"></button><figcaption>Semilac, wiosna 2017</figcaption></figure>
+   <figure><button type="button" data-duze="img/pf-lisner-duze.webp"><img src="img/pf-lisner.webp" width="960" height="640" loading="lazy" alt="Kampania Lisner z Michelem Moranem"></button><figcaption>Lisner, kampania z Michelem Moranem</figcaption></figure>
+   <figure><button type="button" data-duze="img/pf-piu-di-me-duze.webp"><img src="img/pf-piu-di-me.webp" width="959" height="640" loading="lazy" alt="Sesja Piu-Di-Me wiosna-lato 2016"></button><figcaption>Piu-Di-Me, wiosna-lato 2016</figcaption></figure>
+   <figure><button type="button" data-duze="img/pf-wittchen-duze.webp"><img src="img/pf-wittchen.webp" width="640" height="640" loading="lazy" alt="Sesja dla marki Wittchen"></button><figcaption>Wittchen</figcaption></figure>
+   <figure><button type="button" data-duze="img/pf-malta-wiosna-duze.webp"><img src="img/pf-malta-wiosna.webp" width="967" height="640" loading="lazy" alt="Kampania Galerii Malta wiosna-lato 2016"></button><figcaption>Galeria Malta, wiosna-lato 2016</figcaption></figure>
+   <figure><button type="button" data-duze="img/pf-lidl-duze.webp"><img src="img/pf-lidl.webp" width="640" height="640" loading="lazy" alt="Kampania Lidla z Paskalem Brodnickim i Karolem Okrasą"></button><figcaption>Lidl, Paskal Brodnicki i Karol Okrasa</figcaption></figure>
+   <figure><button type="button" data-duze="img/pf-malta-2016-duze.webp"><img src="img/pf-malta-2016.webp" width="1134" height="640" loading="lazy" alt="Kampania Galerii Malta jesień-zima 2016"></button><figcaption>Galeria Malta, jesień-zima 2016</figcaption></figure>
+   <figure><button type="button" data-duze="img/pf-lidl-ksiazka-duze.webp"><img src="img/pf-lidl-ksiazka.webp" width="640" height="640" loading="lazy" alt="Książka kucharska Lidla z celebrytami"></button><figcaption>Lidl, książka kucharska z celebrytami</figcaption></figure>
+   <figure><button type="button" data-duze="img/pf-backstage-duze.webp"><img src="img/pf-backstage.webp" width="854" height="640" loading="lazy" alt="Za kulisami planu zdjęciowego"></button><figcaption>Za kulisami</figcaption></figure>
+  </div>
+ </div>
+</section>
+<dialog class="lb" id="lb"><button type="button" aria-label="Zamknij">&times;</button><img src="" alt=""><p></p></dialog>
+
+<section class="szary" id="opinie">
+ <div class="wrap">
+  <h2>Co mówią klientki</h2>
+  <div class="cytaty">
+   <blockquote>„Ogromna oszczędność czasu i pieniędzy - w końcu mam porządek w szafie i w głowie.”</blockquote>
+   <blockquote>„Teraz z przyjemnością chodzę na zakupy, bo dokładnie wiem, czego chcę i czego potrzebuję.”</blockquote>
+   <blockquote class="dluga">„Z Martą Rasch i Novamoda po raz pierwszy spotkałem się na planie serii spotów reklamowych. Marta odpowiadała za kostiumy, zwracając uwagę przywiązaniem do detalu i poczuciem estetyki. Naturalnym krokiem była współpraca przy filmie fabularnym „Na drodze”.”<cite><b>Bartosz Nowacki</b>, ALISTAN PRODUCTIONS, reżyser</cite></blockquote>
+   <blockquote>„Stałam się pewniejsza siebie, w pracy i w życiu towarzyskim.”</blockquote>
+   <blockquote>„Teraz codzienne tworzenie zestawów stało się przyjemnością i dobrą zabawą.”</blockquote>
+   <blockquote class="dluga">„Bardzo się bałam tego spotkania, zakupów i mojej metamorfozy, ale jak tylko się spotkałyśmy, moje obawy pękły jak bańka mydlana. Moja metamorfoza była jedną z piękniejszych chwil w moim życiu.”<cite><b>Katarzyna K.</b>, pakiet metamorfozy w prezencie urodzinowym</cite></blockquote>
+   <blockquote>„Już nie wydaję bezsensownie pieniędzy na ubrania, które potem zalegają w szafie.”</blockquote>
+   <blockquote class="dluga">„Są profesjonalne, solidne, pełne energii i pasji. Wyczucia stylu można się nauczyć, ale one to po prostu w sobie mają i chętnie się tym dzielą.”<cite><b>Agnieszka Szudzińska</b>, adaga s.c.</cite></blockquote>
+   <blockquote>„Wiem, jak nosić ubrania ze swojej szafy w wielu świetnych zestawach.”</blockquote>
+  </div>
+  <p class="google">Więcej opinii klientek: <a href="https://www.google.com/maps?cid=234776215777765564" rel="noopener">Novamoda w Google</a></p>
+ </div>
+</section>
+
+<section id="kontakt">
+ <div class="wrap kontakt">
+  <div>
+   <h2>Umów się</h2>
+   <p class="wst">Kontakt do niczego Cię nie zobowiązuje. Chętnie odpowiem na Twoje pytania i umówimy bezpłatne 15 minut rozmowy wideo.</p>
+   <div class="dane">
+    <div><small>Marta Rasch, stylistka</small><a href="tel:+48790455885">790 455 885</a></div>
+    <div><small>Showroom</small><a href="tel:+48575870703">575 870 703</a></div>
+    <div><small>E-mail</small><a href="mailto:novamoda@novamoda.pl">novamoda@novamoda.pl</a></div>
+    <div><small>Adres showroomu</small><span>ul. Kościelna 17, Poznań</span></div>
+   </div>
+   <div class="soc"><a href="https://www.instagram.com/marta.rasch/" rel="noopener">Instagram</a><a href="https://www.facebook.com/NovaModapl" rel="noopener">Facebook</a><a href="https://pl.pinterest.com/novamodapl/" rel="noopener">Pinterest</a><a href="https://blog.novamoda.pl/" rel="noopener">Blog</a></div>
+  </div>
+  <form id="form" novalidate>
+   <div class="podw">
+    <label>Imię<input name="imie" autocomplete="given-name" required></label>
+    <label>Telefon lub e-mail<input name="kontakt" required></label>
+   </div>
+   <label>Czym jesteś zainteresowana?
+    <select name="usluga">
+     <option>Bezpłatne 15 minut rozmowy wideo</option>
+     <option>Analiza kolorystyczna i analiza sylwetki</option>
+     <option>Analiza kolorystyczna</option>
+     <option>Przegląd szafy online</option>
+     <option>Przegląd szafy w domu</option>
+     <option>Zakupy ze stylistką</option>
+     <option>Szycie na miarę / showroom</option>
+    </select>
+   </label>
+   <label>Wiadomość<textarea name="wiad" placeholder="Np. na jaką okazję szukasz stylizacji"></textarea></label>
+   <label class="zgoda"><input type="checkbox" required> Zgadzam się na kontakt w sprawie mojego zapytania.</label>
+   <button class="btn" type="submit">Wyślij zapytanie</button>
+   <p class="ok" id="ok" role="status">To podgląd strony - formularz pokazowy nie wysyła wiadomości.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="st-g">
+   <div class="st-logo"><svg viewBox="0 0 236 234" aria-hidden="true"><use href="#nm"/></svg><p>Novamoda Stylizacje - osobista stylistka Marta Rasch i showroom polskiej mody w Poznaniu.</p></div>
+   <div><b class="st-h">Kontakt</b><ul><li><a href="tel:+48790455885">790 455 885</a></li><li><a href="tel:+48575870703">575 870 703</a></li><li><a href="mailto:novamoda@novamoda.pl">novamoda@novamoda.pl</a></li><li>ul. Kościelna 17, Poznań</li></ul></div>
+   <div><b class="st-h">Strona</b><ul><li><a href="#cennik">Usługi i cennik</a></li><li><a href="#showroom">Showroom</a></li><li><a href="#portfolio">Portfolio</a></li><li><a href="#opinie">Opinie</a></li></ul></div>
+   <div><b class="st-h">Novamoda</b><ul><li><a href="https://sklep.novamoda.pl/">Sklep online</a></li><li><a href="https://blog.novamoda.pl/">Blog</a></li><li><a href="https://www.instagram.com/marta.rasch/">Instagram</a></li><li><a href="https://www.facebook.com/NovaModapl">Facebook</a></li></ul></div>
+  </div>
+  <div class="st-dol">
+   <span>&copy; 2026 Novamoda Stylizacje. Podgląd koncepcji strony.</span>
+   <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=novamoda.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+
+  </div>
+ </div>
+</footer>
+
+<nav class="mob" aria-label="Szybki kontakt"><a href="tel:+48790455885">Zadzwoń</a><a href="#kontakt">Umów bezpłatne 15 minut</a></nav>
+<script src="app.js" defer></script>
+</body>
+</html>
